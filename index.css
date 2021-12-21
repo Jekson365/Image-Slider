@@ -1,0 +1,49 @@
+body {
+    background: rgb(185,131,255);
+    background: linear-gradient(90deg, rgba(185,131,255,1) 0%, rgba(253,148,148,1) 100%);
+}
+img {
+    cursor: pointer;
+    width: 105%;
+}
+.imagecontai {
+    border-radius: 5px;
+    margin: 20px;
+    transition: 0.3s;   
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0.01px rgba(0, 0, 0, 0.377);
+    background: rgb(185,131,255);
+    background: linear-gradient(90deg, rgba(185,131,255,1) 0%, rgba(253,224,148,0.13209033613445376) 100%);
+    height: 262px;
+}
+h1 {
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    
+    
+}
+p {
+    color: white;
+}
+button {
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    background: black;
+    outline: 0;
+    padding: 10px 20px;
+}
+#cover {
+    margin: 10px auto;
+     
+    width: 200px;
+}
+.container {
+    transform: translateY(50px);
+    display: flex;
+    justify-content: center;
+}
