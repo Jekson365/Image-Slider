@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(49, 49, 61);
+}
+* {
+    transition: 0.3s ease-out;
+}
+.contianer {
+    overflow: hidden;
+    text-align: center;
+    width: 780px;
+    height:400px;
+ 
+    margin: 100px auto;
+}
+.carousel {
+    display: flex;
+}
+img {
+    width: 800px;
+}
+.btn1 {
+    color: rgb(196, 196, 196);
+    font-size: 60px;
+    background-color: transparent;
+    border: 0;outline: 0;
+}
+.buttons {z-index: 11111;
+    position: relative;
+    top: 320px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imageslider {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+     
+    overflow: hidden;
+}
+#image1 {
+    background-color: blue;
+ 
+    background-position: center 10%;
+    background-image: url("https://images.wallpapersden.com/image/download/attack-on-titan-japanese-tv-series-poster_am1mbmmUmZqaraWkpJRmZ21lrWxnZQ.jpg");
+}
+#image2{
+    background-color: rgba(248, 225, 50, 0.796);
+   
+    background-position: center 20%;
+    background-image: url("https://images.hdqwalls.com/download/peaky-blinders-7h-1280x720.jpg");
+}
+#image3 {
+    background-color: blue;
+   
+    background-position: center center;
+    background-image: url("https://images.wallpapersden.com/image/download/game-of-thrones-wallpaper-ned-stark-hd-1080p-hd-wallpapers_aWVlZWmUmZqaraWkpJRmZ21lrWxnZQ.jpg");
+}
+#image4 {
+    background-color: blue;
+    background-position: center 40%;
+    background-image: url("https://images.wallpapersden.com/image/download/stranger-things-season-4-artwork_a2xnbGaUmZqaraWkpJRmZ21lrWxnZQ.jpg");
+}
+#image5 {
+    background-color: blue;
+    background-position: 70% 40%;
+    background-image: url("http://wallpaperstock.net/breaking-bad-walter-white_wallpapers_36999_1280x720.jpg");
+}
+#image6 {
+    background-color: blue;
+    background-position:40% 40%;
+    background-image: url("https://data2.1freewallpapers.com/download/sherlock-sherlock-holmes-dr-john-watson-1280x720.jpg");
+}
+.myimage {
+    background-size: cover;
+    width: 25%;
+    height: 400px;
+}
+.myimage:hover {
+    width: 90%;
+}
